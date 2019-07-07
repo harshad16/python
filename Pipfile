@@ -6,13 +6,13 @@ name = "pypi"
 [packages]
 requests = "*"
 click = "*"
-thoth-analyzer = "*"
-thoth-common = "*"
 attrs = "*"
 contoml = "*"
 beautifulsoup4 = "==4.6.3"
 lxml = "*"
 semantic-version = "*"
+thoth-common = {git = "https://github.com/harshad16/common.git",ref = "update/build-analyser"}
+thoth-analyzer = {git = "https://github.com/harshad16/analyzer.git",ref = "wip"}
 
 [dev-packages]
 pytest = "*"
